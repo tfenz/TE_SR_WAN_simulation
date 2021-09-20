@@ -2,7 +2,7 @@
 For our experiments we use real-world data from two sources:
 
 ## SNDLib data
-We use traffic and topology data from SNDLib, which we redistribute under the license: 
+We use traffic and topology data from [SNDLib](http://sndlib.zib.de/home.action), which we redistribute under the license: 
 ### DEMANDS
 |Network   | Granularity | Horizon | #Matrices | XML TGZ  |
 |----------|-------------|---------|-----------|----------|

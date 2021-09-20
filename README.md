@@ -35,7 +35,7 @@ We used Gurobi to solve linear problems. To reproduce the results a licence is r
 Download and install the Gurobi Optimizer (9.1.2) from [download](https://www.gurobi.com/downloads/).
 
 ## Real-World Data
-To tune our experiments interestingly, we use real world data for both - topologies and demands from SNDLib and [TopologyZoo](http://www.topology-zoo.org/dataset.html).
+To tune our experiments interestingly, we use real world data for both - topologies and demands from [SNDLib](http://sndlib.zib.de/home.action) and [TopologyZoo](http://www.topology-zoo.org/dataset.html).
 
 Overview of real-world data usage
 * Fig. 3: Topology data from SNDLib and TopologyZoo
@@ -53,10 +53,6 @@ Additionally, we use the topology data available from [TopologyZoo](http://www.t
 1. Download the whole dataset: [Download](http://www.topology-zoo.org/files/archive.zip)
 2. Unzip the data
 3. Save the *.graphml files in the directory [data/topologies/topology_zoo](data/topologies/topology_zoo/))
-
-SNDLib Data used for 
-* Evaluations shown in Fig. 4: Topology data is provided from SNDLib.
-* For Fig. 5 we use topology and traffic data from SNDLib.
 
 ## Install Python & Dependencies
 Create a conda environment and install all python dependencies using the provided environment.yml file:
