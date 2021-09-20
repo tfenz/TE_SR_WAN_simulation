@@ -1,0 +1,744 @@
+<?xml version="1.0"?>
+<network xmlns="http://sndlib.zib.de/network" version="1.0">
+ <meta>
+  <granularity>5min</granularity>
+  <time>20040310-2320</time>
+  <unit>MBITPERSEC</unit>
+  <origin>Yin Zhang, http://userweb.cs.utexas.edu/~yzhang/research/AbileneTM/</origin>
+ </meta>
+ <networkStructure>
+  <nodes coordinatesType="geographical">
+   <node id="ATLAM5">
+    <coordinates>
+     <x>-84.383300</x>
+     <y>33.750000</y>
+    </coordinates>
+   </node>
+   <node id="ATLAng">
+    <coordinates>
+     <x>-85.5</x>
+     <y>34.5</y>
+    </coordinates>
+   </node>
+   <node id="CHINng">
+    <coordinates>
+     <x>-87.616700</x>
+     <y>41.833300</y>
+    </coordinates>
+   </node>
+   <node id="DNVRng">
+    <coordinates>
+     <x>-105.000000</x>
+     <y>40.750000</y>
+    </coordinates>
+   </node>
+   <node id="HSTNng">
+    <coordinates>
+     <x>-95.517364</x>
+     <y>29.770031</y>
+    </coordinates>
+   </node>
+   <node id="IPLSng">
+    <coordinates>
+     <x>-86.159535</x>
+     <y>39.780622</y>
+    </coordinates>
+   </node>
+   <node id="KSCYng">
+    <coordinates>
+     <x>-96.596704</x>
+     <y>38.961694</y>
+    </coordinates>
+   </node>
+   <node id="LOSAng">
+    <coordinates>
+     <x>-118.250000</x>
+     <y>34.050000</y>
+    </coordinates>
+   </node>
+   <node id="NYCMng">
+    <coordinates>
+     <x>-73.966700</x>
+     <y>40.783300</y>
+    </coordinates>
+   </node>
+   <node id="SNVAng">
+    <coordinates>
+     <x>-122.02553</x>
+     <y>37.38575</y>
+    </coordinates>
+   </node>
+   <node id="STTLng">
+    <coordinates>
+     <x>-122.300000</x>
+     <y>47.600000</y>
+    </coordinates>
+   </node>
+   <node id="WASHng">
+    <coordinates>
+     <x>-77.026842</x>
+     <y>38.897303</y>
+    </coordinates>
+   </node>
+  </nodes>
+  <links>
+  </links>
+ </networkStructure>
+ <demands>
+  <demand id="ATLAM5_ATLAng">
+   <source>ATLAM5</source>
+   <target>ATLAng</target>
+   <demandValue> 0.196037 </demandValue>
+  </demand>
+  <demand id="ATLAM5_CHINng">
+   <source>ATLAM5</source>
+   <target>CHINng</target>
+   <demandValue> 0.382848 </demandValue>
+  </demand>
+  <demand id="ATLAM5_DNVRng">
+   <source>ATLAM5</source>
+   <target>DNVRng</target>
+   <demandValue> 0.117493 </demandValue>
+  </demand>
+  <demand id="ATLAM5_HSTNng">
+   <source>ATLAM5</source>
+   <target>HSTNng</target>
+   <demandValue> 2.284768 </demandValue>
+  </demand>
+  <demand id="ATLAM5_IPLSng">
+   <source>ATLAM5</source>
+   <target>IPLSng</target>
+   <demandValue> 0.334128 </demandValue>
+  </demand>
+  <demand id="ATLAM5_KSCYng">
+   <source>ATLAM5</source>
+   <target>KSCYng</target>
+   <demandValue> 0.496696 </demandValue>
+  </demand>
+  <demand id="ATLAM5_LOSAng">
+   <source>ATLAM5</source>
+   <target>LOSAng</target>
+   <demandValue> 1.974287 </demandValue>
+  </demand>
+  <demand id="ATLAM5_NYCMng">
+   <source>ATLAM5</source>
+   <target>NYCMng</target>
+   <demandValue> 1.200323 </demandValue>
+  </demand>
+  <demand id="ATLAM5_SNVAng">
+   <source>ATLAM5</source>
+   <target>SNVAng</target>
+   <demandValue> 0.061927 </demandValue>
+  </demand>
+  <demand id="ATLAM5_STTLng">
+   <source>ATLAM5</source>
+   <target>STTLng</target>
+   <demandValue> 0.551019 </demandValue>
+  </demand>
+  <demand id="ATLAM5_WASHng">
+   <source>ATLAM5</source>
+   <target>WASHng</target>
+   <demandValue> 0.850789 </demandValue>
+  </demand>
+  <demand id="ATLAng_ATLAM5">
+   <source>ATLAng</source>
+   <target>ATLAM5</target>
+   <demandValue> 1.555640 </demandValue>
+  </demand>
+  <demand id="ATLAng_CHINng">
+   <source>ATLAng</source>
+   <target>CHINng</target>
+   <demandValue> 28.332856 </demandValue>
+  </demand>
+  <demand id="ATLAng_DNVRng">
+   <source>ATLAng</source>
+   <target>DNVRng</target>
+   <demandValue> 11.986827 </demandValue>
+  </demand>
+  <demand id="ATLAng_HSTNng">
+   <source>ATLAng</source>
+   <target>HSTNng</target>
+   <demandValue> 11.439797 </demandValue>
+  </demand>
+  <demand id="ATLAng_IPLSng">
+   <source>ATLAng</source>
+   <target>IPLSng</target>
+   <demandValue> 27.646493 </demandValue>
+  </demand>
+  <demand id="ATLAng_KSCYng">
+   <source>ATLAng</source>
+   <target>KSCYng</target>
+   <demandValue> 4.948888 </demandValue>
+  </demand>
+  <demand id="ATLAng_LOSAng">
+   <source>ATLAng</source>
+   <target>LOSAng</target>
+   <demandValue> 21.035523 </demandValue>
+  </demand>
+  <demand id="ATLAng_NYCMng">
+   <source>ATLAng</source>
+   <target>NYCMng</target>
+   <demandValue> 12.600829 </demandValue>
+  </demand>
+  <demand id="ATLAng_SNVAng">
+   <source>ATLAng</source>
+   <target>SNVAng</target>
+   <demandValue> 3.943083 </demandValue>
+  </demand>
+  <demand id="ATLAng_STTLng">
+   <source>ATLAng</source>
+   <target>STTLng</target>
+   <demandValue> 5.366805 </demandValue>
+  </demand>
+  <demand id="ATLAng_WASHng">
+   <source>ATLAng</source>
+   <target>WASHng</target>
+   <demandValue> 60.950059 </demandValue>
+  </demand>
+  <demand id="CHINng_ATLAM5">
+   <source>CHINng</source>
+   <target>ATLAM5</target>
+   <demandValue> 0.986669 </demandValue>
+  </demand>
+  <demand id="CHINng_ATLAng">
+   <source>CHINng</source>
+   <target>ATLAng</target>
+   <demandValue> 54.604541 </demandValue>
+  </demand>
+  <demand id="CHINng_DNVRng">
+   <source>CHINng</source>
+   <target>DNVRng</target>
+   <demandValue> 39.875771 </demandValue>
+  </demand>
+  <demand id="CHINng_HSTNng">
+   <source>CHINng</source>
+   <target>HSTNng</target>
+   <demandValue> 37.703408 </demandValue>
+  </demand>
+  <demand id="CHINng_IPLSng">
+   <source>CHINng</source>
+   <target>IPLSng</target>
+   <demandValue> 84.965293 </demandValue>
+  </demand>
+  <demand id="CHINng_KSCYng">
+   <source>CHINng</source>
+   <target>KSCYng</target>
+   <demandValue> 33.365760 </demandValue>
+  </demand>
+  <demand id="CHINng_LOSAng">
+   <source>CHINng</source>
+   <target>LOSAng</target>
+   <demandValue> 60.940939 </demandValue>
+  </demand>
+  <demand id="CHINng_NYCMng">
+   <source>CHINng</source>
+   <target>NYCMng</target>
+   <demandValue> 29.942056 </demandValue>
+  </demand>
+  <demand id="CHINng_SNVAng">
+   <source>CHINng</source>
+   <target>SNVAng</target>
+   <demandValue> 7.864283 </demandValue>
+  </demand>
+  <demand id="CHINng_STTLng">
+   <source>CHINng</source>
+   <target>STTLng</target>
+   <demandValue> 16.941013 </demandValue>
+  </demand>
+  <demand id="CHINng_WASHng">
+   <source>CHINng</source>
+   <target>WASHng</target>
+   <demandValue> 46.798979 </demandValue>
+  </demand>
+  <demand id="DNVRng_ATLAM5">
+   <source>DNVRng</source>
+   <target>ATLAM5</target>
+   <demandValue> 1.112523 </demandValue>
+  </demand>
+  <demand id="DNVRng_ATLAng">
+   <source>DNVRng</source>
+   <target>ATLAng</target>
+   <demandValue> 9.458605 </demandValue>
+  </demand>
+  <demand id="DNVRng_CHINng">
+   <source>DNVRng</source>
+   <target>CHINng</target>
+   <demandValue> 76.619517 </demandValue>
+  </demand>
+  <demand id="DNVRng_HSTNng">
+   <source>DNVRng</source>
+   <target>HSTNng</target>
+   <demandValue> 35.210312 </demandValue>
+  </demand>
+  <demand id="DNVRng_IPLSng">
+   <source>DNVRng</source>
+   <target>IPLSng</target>
+   <demandValue> 51.547851 </demandValue>
+  </demand>
+  <demand id="DNVRng_KSCYng">
+   <source>DNVRng</source>
+   <target>KSCYng</target>
+   <demandValue> 24.891720 </demandValue>
+  </demand>
+  <demand id="DNVRng_LOSAng">
+   <source>DNVRng</source>
+   <target>LOSAng</target>
+   <demandValue> 21.836496 </demandValue>
+  </demand>
+  <demand id="DNVRng_NYCMng">
+   <source>DNVRng</source>
+   <target>NYCMng</target>
+   <demandValue> 21.632027 </demandValue>
+  </demand>
+  <demand id="DNVRng_SNVAng">
+   <source>DNVRng</source>
+   <target>SNVAng</target>
+   <demandValue> 16.619301 </demandValue>
+  </demand>
+  <demand id="DNVRng_STTLng">
+   <source>DNVRng</source>
+   <target>STTLng</target>
+   <demandValue> 19.202896 </demandValue>
+  </demand>
+  <demand id="DNVRng_WASHng">
+   <source>DNVRng</source>
+   <target>WASHng</target>
+   <demandValue> 71.038795 </demandValue>
+  </demand>
+  <demand id="HSTNng_ATLAM5">
+   <source>HSTNng</source>
+   <target>ATLAM5</target>
+   <demandValue> 2.064797 </demandValue>
+  </demand>
+  <demand id="HSTNng_ATLAng">
+   <source>HSTNng</source>
+   <target>ATLAng</target>
+   <demandValue> 4.795813 </demandValue>
+  </demand>
+  <demand id="HSTNng_CHINng">
+   <source>HSTNng</source>
+   <target>CHINng</target>
+   <demandValue> 59.623533 </demandValue>
+  </demand>
+  <demand id="HSTNng_DNVRng">
+   <source>HSTNng</source>
+   <target>DNVRng</target>
+   <demandValue> 5.777675 </demandValue>
+  </demand>
+  <demand id="HSTNng_IPLSng">
+   <source>HSTNng</source>
+   <target>IPLSng</target>
+   <demandValue> 10.292797 </demandValue>
+  </demand>
+  <demand id="HSTNng_KSCYng">
+   <source>HSTNng</source>
+   <target>KSCYng</target>
+   <demandValue> 7.831363 </demandValue>
+  </demand>
+  <demand id="HSTNng_LOSAng">
+   <source>HSTNng</source>
+   <target>LOSAng</target>
+   <demandValue> 8.492840 </demandValue>
+  </demand>
+  <demand id="HSTNng_NYCMng">
+   <source>HSTNng</source>
+   <target>NYCMng</target>
+   <demandValue> 9.224371 </demandValue>
+  </demand>
+  <demand id="HSTNng_SNVAng">
+   <source>HSTNng</source>
+   <target>SNVAng</target>
+   <demandValue> 2.032531 </demandValue>
+  </demand>
+  <demand id="HSTNng_STTLng">
+   <source>HSTNng</source>
+   <target>STTLng</target>
+   <demandValue> 3.882667 </demandValue>
+  </demand>
+  <demand id="HSTNng_WASHng">
+   <source>HSTNng</source>
+   <target>WASHng</target>
+   <demandValue> 6.174467 </demandValue>
+  </demand>
+  <demand id="IPLSng_ATLAM5">
+   <source>IPLSng</source>
+   <target>ATLAM5</target>
+   <demandValue> 0.286477 </demandValue>
+  </demand>
+  <demand id="IPLSng_ATLAng">
+   <source>IPLSng</source>
+   <target>ATLAng</target>
+   <demandValue> 20.862557 </demandValue>
+  </demand>
+  <demand id="IPLSng_CHINng">
+   <source>IPLSng</source>
+   <target>CHINng</target>
+   <demandValue> 131.942733 </demandValue>
+  </demand>
+  <demand id="IPLSng_DNVRng">
+   <source>IPLSng</source>
+   <target>DNVRng</target>
+   <demandValue> 28.542459 </demandValue>
+  </demand>
+  <demand id="IPLSng_HSTNng">
+   <source>IPLSng</source>
+   <target>HSTNng</target>
+   <demandValue> 20.632211 </demandValue>
+  </demand>
+  <demand id="IPLSng_KSCYng">
+   <source>IPLSng</source>
+   <target>KSCYng</target>
+   <demandValue> 11.321053 </demandValue>
+  </demand>
+  <demand id="IPLSng_LOSAng">
+   <source>IPLSng</source>
+   <target>LOSAng</target>
+   <demandValue> 30.327579 </demandValue>
+  </demand>
+  <demand id="IPLSng_NYCMng">
+   <source>IPLSng</source>
+   <target>NYCMng</target>
+   <demandValue> 40.133085 </demandValue>
+  </demand>
+  <demand id="IPLSng_SNVAng">
+   <source>IPLSng</source>
+   <target>SNVAng</target>
+   <demandValue> 7.141773 </demandValue>
+  </demand>
+  <demand id="IPLSng_STTLng">
+   <source>IPLSng</source>
+   <target>STTLng</target>
+   <demandValue> 13.184227 </demandValue>
+  </demand>
+  <demand id="IPLSng_WASHng">
+   <source>IPLSng</source>
+   <target>WASHng</target>
+   <demandValue> 54.927755 </demandValue>
+  </demand>
+  <demand id="KSCYng_ATLAM5">
+   <source>KSCYng</source>
+   <target>ATLAM5</target>
+   <demandValue> 0.264133 </demandValue>
+  </demand>
+  <demand id="KSCYng_ATLAng">
+   <source>KSCYng</source>
+   <target>ATLAng</target>
+   <demandValue> 3.551587 </demandValue>
+  </demand>
+  <demand id="KSCYng_CHINng">
+   <source>KSCYng</source>
+   <target>CHINng</target>
+   <demandValue> 34.219536 </demandValue>
+  </demand>
+  <demand id="KSCYng_DNVRng">
+   <source>KSCYng</source>
+   <target>DNVRng</target>
+   <demandValue> 12.230491 </demandValue>
+  </demand>
+  <demand id="KSCYng_HSTNng">
+   <source>KSCYng</source>
+   <target>HSTNng</target>
+   <demandValue> 7.315483 </demandValue>
+  </demand>
+  <demand id="KSCYng_IPLSng">
+   <source>KSCYng</source>
+   <target>IPLSng</target>
+   <demandValue> 17.838845 </demandValue>
+  </demand>
+  <demand id="KSCYng_LOSAng">
+   <source>KSCYng</source>
+   <target>LOSAng</target>
+   <demandValue> 7.880773 </demandValue>
+  </demand>
+  <demand id="KSCYng_NYCMng">
+   <source>KSCYng</source>
+   <target>NYCMng</target>
+   <demandValue> 10.061453 </demandValue>
+  </demand>
+  <demand id="KSCYng_SNVAng">
+   <source>KSCYng</source>
+   <target>SNVAng</target>
+   <demandValue> 7.731717 </demandValue>
+  </demand>
+  <demand id="KSCYng_STTLng">
+   <source>KSCYng</source>
+   <target>STTLng</target>
+   <demandValue> 5.429019 </demandValue>
+  </demand>
+  <demand id="KSCYng_WASHng">
+   <source>KSCYng</source>
+   <target>WASHng</target>
+   <demandValue> 10.534701 </demandValue>
+  </demand>
+  <demand id="LOSAng_ATLAM5">
+   <source>LOSAng</source>
+   <target>ATLAM5</target>
+   <demandValue> 0.267331 </demandValue>
+  </demand>
+  <demand id="LOSAng_ATLAng">
+   <source>LOSAng</source>
+   <target>ATLAng</target>
+   <demandValue> 32.178592 </demandValue>
+  </demand>
+  <demand id="LOSAng_CHINng">
+   <source>LOSAng</source>
+   <target>CHINng</target>
+   <demandValue> 119.132645 </demandValue>
+  </demand>
+  <demand id="LOSAng_DNVRng">
+   <source>LOSAng</source>
+   <target>DNVRng</target>
+   <demandValue> 13.545520 </demandValue>
+  </demand>
+  <demand id="LOSAng_HSTNng">
+   <source>LOSAng</source>
+   <target>HSTNng</target>
+   <demandValue> 20.947557 </demandValue>
+  </demand>
+  <demand id="LOSAng_IPLSng">
+   <source>LOSAng</source>
+   <target>IPLSng</target>
+   <demandValue> 59.829077 </demandValue>
+  </demand>
+  <demand id="LOSAng_KSCYng">
+   <source>LOSAng</source>
+   <target>KSCYng</target>
+   <demandValue> 30.880019 </demandValue>
+  </demand>
+  <demand id="LOSAng_NYCMng">
+   <source>LOSAng</source>
+   <target>NYCMng</target>
+   <demandValue> 67.961549 </demandValue>
+  </demand>
+  <demand id="LOSAng_SNVAng">
+   <source>LOSAng</source>
+   <target>SNVAng</target>
+   <demandValue> 16.795395 </demandValue>
+  </demand>
+  <demand id="LOSAng_STTLng">
+   <source>LOSAng</source>
+   <target>STTLng</target>
+   <demandValue> 28.559029 </demandValue>
+  </demand>
+  <demand id="LOSAng_WASHng">
+   <source>LOSAng</source>
+   <target>WASHng</target>
+   <demandValue> 67.635923 </demandValue>
+  </demand>
+  <demand id="NYCMng_ATLAM5">
+   <source>NYCMng</source>
+   <target>ATLAM5</target>
+   <demandValue> 1.062632 </demandValue>
+  </demand>
+  <demand id="NYCMng_ATLAng">
+   <source>NYCMng</source>
+   <target>ATLAng</target>
+   <demandValue> 43.902680 </demandValue>
+  </demand>
+  <demand id="NYCMng_CHINng">
+   <source>NYCMng</source>
+   <target>CHINng</target>
+   <demandValue> 67.518856 </demandValue>
+  </demand>
+  <demand id="NYCMng_DNVRng">
+   <source>NYCMng</source>
+   <target>DNVRng</target>
+   <demandValue> 41.655475 </demandValue>
+  </demand>
+  <demand id="NYCMng_HSTNng">
+   <source>NYCMng</source>
+   <target>HSTNng</target>
+   <demandValue> 34.192144 </demandValue>
+  </demand>
+  <demand id="NYCMng_IPLSng">
+   <source>NYCMng</source>
+   <target>IPLSng</target>
+   <demandValue> 104.609715 </demandValue>
+  </demand>
+  <demand id="NYCMng_KSCYng">
+   <source>NYCMng</source>
+   <target>KSCYng</target>
+   <demandValue> 37.455283 </demandValue>
+  </demand>
+  <demand id="NYCMng_LOSAng">
+   <source>NYCMng</source>
+   <target>LOSAng</target>
+   <demandValue> 91.394267 </demandValue>
+  </demand>
+  <demand id="NYCMng_SNVAng">
+   <source>NYCMng</source>
+   <target>SNVAng</target>
+   <demandValue> 19.359808 </demandValue>
+  </demand>
+  <demand id="NYCMng_STTLng">
+   <source>NYCMng</source>
+   <target>STTLng</target>
+   <demandValue> 45.728139 </demandValue>
+  </demand>
+  <demand id="NYCMng_WASHng">
+   <source>NYCMng</source>
+   <target>WASHng</target>
+   <demandValue> 165.358016 </demandValue>
+  </demand>
+  <demand id="SNVAng_ATLAng">
+   <source>SNVAng</source>
+   <target>ATLAng</target>
+   <demandValue> 0.435205 </demandValue>
+  </demand>
+  <demand id="SNVAng_CHINng">
+   <source>SNVAng</source>
+   <target>CHINng</target>
+   <demandValue> 4.545587 </demandValue>
+  </demand>
+  <demand id="SNVAng_DNVRng">
+   <source>SNVAng</source>
+   <target>DNVRng</target>
+   <demandValue> 12.717379 </demandValue>
+  </demand>
+  <demand id="SNVAng_HSTNng">
+   <source>SNVAng</source>
+   <target>HSTNng</target>
+   <demandValue> 1.188392 </demandValue>
+  </demand>
+  <demand id="SNVAng_IPLSng">
+   <source>SNVAng</source>
+   <target>IPLSng</target>
+   <demandValue> 2.726464 </demandValue>
+  </demand>
+  <demand id="SNVAng_KSCYng">
+   <source>SNVAng</source>
+   <target>KSCYng</target>
+   <demandValue> 1.366355 </demandValue>
+  </demand>
+  <demand id="SNVAng_LOSAng">
+   <source>SNVAng</source>
+   <target>LOSAng</target>
+   <demandValue> 34.937619 </demandValue>
+  </demand>
+  <demand id="SNVAng_NYCMng">
+   <source>SNVAng</source>
+   <target>NYCMng</target>
+   <demandValue> 6.531659 </demandValue>
+  </demand>
+  <demand id="SNVAng_STTLng">
+   <source>SNVAng</source>
+   <target>STTLng</target>
+   <demandValue> 53.079251 </demandValue>
+  </demand>
+  <demand id="SNVAng_WASHng">
+   <source>SNVAng</source>
+   <target>WASHng</target>
+   <demandValue> 0.921720 </demandValue>
+  </demand>
+  <demand id="STTLng_ATLAM5">
+   <source>STTLng</source>
+   <target>ATLAM5</target>
+   <demandValue> 0.096189 </demandValue>
+  </demand>
+  <demand id="STTLng_ATLAng">
+   <source>STTLng</source>
+   <target>ATLAng</target>
+   <demandValue> 11.531445 </demandValue>
+  </demand>
+  <demand id="STTLng_CHINng">
+   <source>STTLng</source>
+   <target>CHINng</target>
+   <demandValue> 60.157099 </demandValue>
+  </demand>
+  <demand id="STTLng_DNVRng">
+   <source>STTLng</source>
+   <target>DNVRng</target>
+   <demandValue> 9.577461 </demandValue>
+  </demand>
+  <demand id="STTLng_HSTNng">
+   <source>STTLng</source>
+   <target>HSTNng</target>
+   <demandValue> 7.188557 </demandValue>
+  </demand>
+  <demand id="STTLng_IPLSng">
+   <source>STTLng</source>
+   <target>IPLSng</target>
+   <demandValue> 19.326037 </demandValue>
+  </demand>
+  <demand id="STTLng_KSCYng">
+   <source>STTLng</source>
+   <target>KSCYng</target>
+   <demandValue> 9.582467 </demandValue>
+  </demand>
+  <demand id="STTLng_LOSAng">
+   <source>STTLng</source>
+   <target>LOSAng</target>
+   <demandValue> 47.330152 </demandValue>
+  </demand>
+  <demand id="STTLng_NYCMng">
+   <source>STTLng</source>
+   <target>NYCMng</target>
+   <demandValue> 18.438779 </demandValue>
+  </demand>
+  <demand id="STTLng_SNVAng">
+   <source>STTLng</source>
+   <target>SNVAng</target>
+   <demandValue> 19.104864 </demandValue>
+  </demand>
+  <demand id="STTLng_WASHng">
+   <source>STTLng</source>
+   <target>WASHng</target>
+   <demandValue> 19.846053 </demandValue>
+  </demand>
+  <demand id="WASHng_ATLAM5">
+   <source>WASHng</source>
+   <target>ATLAM5</target>
+   <demandValue> 4.066051 </demandValue>
+  </demand>
+  <demand id="WASHng_ATLAng">
+   <source>WASHng</source>
+   <target>ATLAng</target>
+   <demandValue> 169.559224 </demandValue>
+  </demand>
+  <demand id="WASHng_CHINng">
+   <source>WASHng</source>
+   <target>CHINng</target>
+   <demandValue> 80.273077 </demandValue>
+  </demand>
+  <demand id="WASHng_DNVRng">
+   <source>WASHng</source>
+   <target>DNVRng</target>
+   <demandValue> 117.136947 </demandValue>
+  </demand>
+  <demand id="WASHng_HSTNng">
+   <source>WASHng</source>
+   <target>HSTNng</target>
+   <demandValue> 26.541325 </demandValue>
+  </demand>
+  <demand id="WASHng_IPLSng">
+   <source>WASHng</source>
+   <target>IPLSng</target>
+   <demandValue> 85.287043 </demandValue>
+  </demand>
+  <demand id="WASHng_KSCYng">
+   <source>WASHng</source>
+   <target>KSCYng</target>
+   <demandValue> 52.278717 </demandValue>
+  </demand>
+  <demand id="WASHng_LOSAng">
+   <source>WASHng</source>
+   <target>LOSAng</target>
+   <demandValue> 102.623651 </demandValue>
+  </demand>
+  <demand id="WASHng_NYCMng">
+   <source>WASHng</source>
+   <target>NYCMng</target>
+   <demandValue> 188.706403 </demandValue>
+  </demand>
+  <demand id="WASHng_SNVAng">
+   <source>WASHng</source>
+   <target>SNVAng</target>
+   <demandValue> 13.405629 </demandValue>
+  </demand>
+  <demand id="WASHng_STTLng">
+   <source>WASHng</source>
+   <target>STTLng</target>
+   <demandValue> 58.140197 </demandValue>
+  </demand>
+ </demands>
+</network>

@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<network xmlns="http://sndlib.zib.de/network" version="1.0">
+ <meta>
+  <granularity>15min</granularity>
+  <time>20050504-1515</time>
+  <unit>MBITPERSEC</unit>
+  <origin>Steve Uhlig, http://totem.info.ucl.ac.be/dataset.html</origin>
+ </meta>
+ <networkStructure>
+  <nodes coordinatesType="geographical">
+   <node id="at1.at">
+    <coordinates>
+     <x>16.3729</x>
+     <y>48.2091</y>
+    </coordinates>
+   </node>
+   <node id="be1.be">
+    <coordinates>
+     <x>4.3518</x>
+     <y>50.8469</y>
+    </coordinates>
+   </node>
+   <node id="ch1.ch">
+    <coordinates>
+     <x>6.1399</x>
+     <y>46.2038</y>
+    </coordinates>
+   </node>
+   <node id="cz1.cz">
+    <coordinates>
+     <x>14.4423</x>
+     <y>50.0785</y>
+    </coordinates>
+   </node>
+   <node id="de1.de">
+    <coordinates>
+     <x>8.6842</x>
+     <y>50.1122</y>
+    </coordinates>
+   </node>
+   <node id="es1.es">
+    <coordinates>
+     <x>-3.7033</x>
+     <y>40.4167</y>
+    </coordinates>
+   </node>
+   <node id="fr1.fr">
+    <coordinates>
+     <x>2.351</x>
+     <y>48.8566</y>
+    </coordinates>
+   </node>
+   <node id="gr1.gr">
+    <coordinates>
+     <x>23.5808</x>
+     <y>37.9778</y>
+    </coordinates>
+   </node>
+   <node id="hr1.hr">
+    <coordinates>
+     <x>15.9644</x>
+     <y>45.8071</y>
+    </coordinates>
+   </node>
+   <node id="hu1.hu">
+    <coordinates>
+     <x>19.0936</x>
+     <y>47.4976</y>
+    </coordinates>
+   </node>
+   <node id="ie1.ie">
+    <coordinates>
+     <x>-6.2573</x>
+     <y>53.3416</y>
+    </coordinates>
+   </node>
+   <node id="il1.il">
+    <coordinates>
+     <x>34.8097</x>
+     <y>32.0714</y>
+    </coordinates>
+   </node>
+   <node id="it1.it">
+    <coordinates>
+     <x>9.19</x>
+     <y>45.4642</y>
+    </coordinates>
+   </node>
+   <node id="lu1.lu">
+    <coordinates>
+     <x>6.1296</x>
+     <y>49.6112</y>
+    </coordinates>
+   </node>
+   <node id="nl1.nl">
+    <coordinates>
+     <x>4.9407</x>
+     <y>52.3236</y>
+    </coordinates>
+   </node>
+   <node id="ny1.ny">
+    <coordinates>
+     <x>-73.94384</x>
+     <y>40.6698</y>
+    </coordinates>
+   </node>
+   <node id="pl1.pl">
+    <coordinates>
+     <x>16.8874</x>
+     <y>52.3963</y>
+    </coordinates>
+   </node>
+   <node id="pt1.pt">
+    <coordinates>
+     <x>-9.1363</x>
+     <y>38.7073</y>
+    </coordinates>
+   </node>
+   <node id="se1.se">
+    <coordinates>
+     <x>17.8742</x>
+     <y>59.3617</y>
+    </coordinates>
+   </node>
+   <node id="si1.si">
+    <coordinates>
+     <x>14.5148</x>
+     <y>46.0574</y>
+    </coordinates>
+   </node>
+   <node id="sk1.sk">
+    <coordinates>
+     <x>17.1297</x>
+     <y>48.1531</y>
+    </coordinates>
+   </node>
+   <node id="uk1.uk">
+    <coordinates>
+     <x>-0.1264</x>
+     <y>51.5086</y>
+    </coordinates>
+   </node>
+  </nodes>
+  <links>
+  </links>
+ </networkStructure>
+ <demands>
+ </demands>
+</network>
