@@ -282,12 +282,17 @@ def snd_real_demands():
 
 def main():
     """ For each figure used in the paper we perform a single test-run comprising each multiple test instances """
-    print("Start 'all topologies' tests:")
-    all_topologies_synthetic_demands()  # Evaluation Fig. 3
-    print("Start 'all algorithm' tests:")
-    abilene_all_algorithms()  # Evaluation Fig. 4
-    print("Start 'real demands' tests:")
-    snd_real_demands()  # Evaluation Fig. 5
+    # Evaluation Fig. 3
+    print(f"Start {HIGHLIGHT}MCF Synthetic Demands - All Topologies{CEND}:")
+    all_topologies_synthetic_demands()
+
+    # Evaluation Fig. 4
+    print(f"Start {HIGHLIGHT}MCF Synthetic Demands - All Algorithms - Abilene{CEND}:")
+    abilene_all_algorithms()
+
+    # Evaluation Fig. 5
+    print(f"Start {HIGHLIGHT}Scaled Real Demands - Abilene, Geant, Germany50{CEND}:")
+    snd_real_demands()
 
 
 if __name__ == '__main__':

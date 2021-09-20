@@ -7,21 +7,22 @@ This repository contains all implemented algorithms, traffic and topology genera
 ## Dependencies and Requirements
 We implemented the proposed algorithms in [Python (3.7.10)](https://www.python.org/downloads/release/python-3710/) leveraging the library [NetworkX (2.5.1)](https://networkx.github.io/documentation/networkx-2.4/) and [NetworKit (8.1)](https://github.com/networkit/networkit). 
 To solve the ILP we used [Gurobi (9.1.2)](https://www.gurobi.com/downloads/gurobi-software/).  
-We used [conda (4.8.2)](https://anaconda.org/anaconda/beautifulsoup4/files?version=4.8.2) as a package manager - see the conda [environment.yml](environment.yml) for further details of packages used in this repository.
+We used [conda (4.8.2)](https://anaconda.org/anaconda/beautifulsoup4/files?version=4.8.2) as a package manager. See the conda [environment.yml](environment.yml) for further details of packages used in this repository.
 
-The host machine was running Ubuntu 18.04.5 LTS.
+The code is tested on Ubuntu and MacOS. The python library *NetworKit* does not support Microsoft Windows in version 8.1.
+The host machine in our evaluations was running Ubuntu 18.04.5 LTS.
 
 ## Structure
 
 | Directory                           | Description                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------|
-| **[data/](data)**                   | Real world traffic/topologies from SNDLib and TopologyZoo                       |
+| **[data/](data)**                   | Target directory for real-world traffic/topologies from SNDLib and TopologyZoo  |
 | **[results_paper/](results_paper)** | Raw result data (json) used in the evaluations shown in the paper               |
 | **[out/](src)**                     | To store json results and plots                                                 |
 | **[src/](src)**                     | Source root containing *main.py*                                                |
-| **[src/algorithm/](src/algorithm)** | WAN Routing algorithms (link weight and/or Segment optimizations)               |
+| **[src/algorithm/](src/algorithm)** | WAN Routing algorithms (link weight and/or segment optimizations)               |
 | **[src/topology/](src/topology)**   | Topology provider (reads/prepares available real-world topology data)           |
-| **[src/demand/](src/demand)**       | Reader for real world traffic data and Synthetic traffic generator              |
+| **[src/demand/](src/demand)**       | Reader for real world traffic data and synthetic traffic generator              |
 | **[src/utility/](src/utility)**     | Globally shared statics/consts and helper classes (e.g. JSON reader/writer)     |
 
 ## Prerequisites
@@ -38,9 +39,9 @@ Download and install the Gurobi Optimizer (9.1.2) from [download](https://www.gu
 To tune our experiments interestingly, we use real world data for both - topologies and demands from [SNDLib](http://sndlib.zib.de/home.action) and [TopologyZoo](http://www.topology-zoo.org/dataset.html).
 
 Overview of real-world data usage
-* Fig. 3: Topology data from SNDLib and TopologyZoo
-* Fig. 4: Topology data from SNDLib
-* Fig. 5: Topology and traffic data from SNDLib.
+* Fig. 3 (all topologies): Topology data from SNDLib and TopologyZoo.
+* Fig. 4 (all algorithms): Topology data from SNDLib.
+* Fig. 5 (real demands): Topology and traffic data from SNDLib.
 
 ### SNDLib Data
 We use traffic and topology data from SNDLib, which we redistribute under the [ZIB ACADEMIC LICENSE](data/LICENSE_SNDLib).
@@ -49,7 +50,7 @@ The data is stored in the directory **[data/](data)**.
 ### TopologyZoo Data
 Additionally, we use the topology data available from [TopologyZoo](http://www.topology-zoo.org/dataset.html).
 
-**Note:** The data from topology zoo is not included in the repository and must be manually added:
+**Note:** The data from topology zoo is **NOT** included in the repository and must be manually added:
 1. Download the whole dataset: [Download](http://www.topology-zoo.org/files/archive.zip)
 2. Unzip the data
 3. Save the *.graphml files in the directory [data/topologies/topology_zoo](data/topologies/topology_zoo/))
@@ -77,16 +78,18 @@ python3 main.py
 ```
 
 ### Output
-The results are stored in a JSON file located in the defined out directory
-
+The results are stored in a JSON file located in **[out/](src)** after running the main.py script.
+*Note: In the directory **[results_paper/](results_paper)** we provide the raw results used in the publication.*
 
 ## Plot Results
 Create Plots from provided raw result data 
 ```bash
 python3 plot_results.py [optional <data-dir> containing json result data]
 ```
-*Note: By default, the script plots the raw result data used in Fig.3-5 in the paper. To plot the data created by running the main.py script, you can pass the directory containing the json files as parameter to the plotting script. 
-
+*Note: By default, the script plots the raw result data used in Fig.3-5 in the paper. To plot the data created by running the main.py script, you can pass the directory containing the json files as parameter to the plotting script.* 
+```bash
+python3 plot_results.py "../out/"
+```
 
 
 ## Contact
