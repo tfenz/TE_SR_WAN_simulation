@@ -19,7 +19,7 @@ The host machine in our evaluations was running Ubuntu 18.04.5 LTS.
 | **[data/](data)**                   | Target directory for real-world traffic/topologies from SNDLib and TopologyZoo  |
 | **[results_paper/](results_paper)** | Raw result data (json) used in the evaluations shown in the paper               |
 | **[out/](src)**                     | To store json results and plots                                                 |
-| **[src/](src)**                     | Source root containing *main.py*                                                |
+| **[src/](src)**                     | Source root containing *main.py* and plot_resuls.py                             |
 | **[src/algorithm/](src/algorithm)** | WAN Routing algorithms (link weight and/or segment optimizations)               |
 | **[src/topology/](src/topology)**   | Topology provider (reads/prepares available real-world topology data)           |
 | **[src/demand/](src/demand)**       | Reader for real world traffic data and synthetic traffic generator              |
@@ -79,14 +79,14 @@ python3 main.py
 
 ### Output
 The results are stored in a JSON file located in **[out/](src)** after running the main.py script.
-*Note: In the directory **[results_paper/](results_paper)** we provide the raw results used in the publication.*
+*Note: In the directory **[results_paper/](results_paper)** we provide the raw results obtained during our evaluations which we used in the publication.*
 
 ## Plot Results
 Create Plots from provided raw result data 
 ```bash
 python3 plot_results.py [optional <data-dir> containing json result data]
 ```
-*Note: By default, the script plots the raw result data used in Fig.3-5 in the paper. To plot the data created by running the main.py script, you can pass the directory containing the json files as parameter to the plotting script.* 
+*Note: By default, the script plots the raw result data used in Fig.3-5 in the paper. To plot the data created by running the main.py script, you can pass the directory containing the json files as parameter to the plotting script. E.g.:* 
 ```bash
 python3 plot_results.py "../out/"
 ```
