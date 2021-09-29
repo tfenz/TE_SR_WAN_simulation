@@ -6,7 +6,7 @@ import os
 
 from algorithm import sr_factory
 from demand import dp_factory
-from src.utility import utility
+from utility import utility
 from topology import topology_factory
 from utility.json_result_handler import JsonResultWriter
 from utility.utility import HIGHLIGHT, CEND, FAIL, error_solution, get_setup_dict, get_fpp
