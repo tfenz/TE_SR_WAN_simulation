@@ -154,7 +154,7 @@ def all_topologies_synthetic_demands():
         ]
     }
 
-    if not os.path.exists(os.path.join(utility.BASE_PATH_ZOO_TOPOLOGY, topology_map["topology_zoo"][0])):
+    if not os.path.exists(os.path.join(utility.BASE_PATH_ZOO_TOPOLOGY, f"{topology_map['topology_zoo'][0]}.graphml")):
         print(f"{FAIL}The data from TopologyZoo is not available - pls follow the instruction in README.md{CEND}")
         return
 
