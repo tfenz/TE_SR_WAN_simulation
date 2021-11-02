@@ -6,7 +6,7 @@ import os
 
 from algorithm import sr_factory
 from demand import dp_factory
-from src.utility import utility
+from utility import utility
 from topology import topology_factory
 from utility.json_result_handler import JsonResultWriter
 from utility.utility import HIGHLIGHT, CEND, FAIL, error_solution, get_setup_dict, get_fpp
@@ -154,7 +154,7 @@ def all_topologies_synthetic_demands():
         ]
     }
 
-    if not os.path.exists(os.path.join(utility.BASE_PATH_ZOO_TOPOLOGY, topology_map["topology_zoo"][0])):
+    if not os.path.exists(os.path.join(utility.BASE_PATH_ZOO_TOPOLOGY, f"{topology_map['topology_zoo'][0].title()}.graphml")):
         print(f"{FAIL}The data from TopologyZoo is not available - pls follow the instruction in README.md{CEND}")
         return
 
