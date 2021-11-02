@@ -92,9 +92,9 @@ python3 plot_results.py "../out/"
 ```
 
 <p float="left">
-  <img src="/artifacts_available_v1_1.png" width="100" />
-  <img src="/artifacts_evaluated_functional_v1_1.png" width="100" /> 
-  <img src="/artifacts_evaluated_reusable_v1_1.png" width="100" />
+  <a href="https://www.acm.org/publications/policies/artifact-review-and-badging-current"><img src="/artifacts_available_v1_1.png" width="150" /></a>
+  <a href="https://www.acm.org/publications/policies/artifact-review-and-badging-current"><img src="/artifacts_evaluated_functional_v1_1.png" width="150" /></a>
+  <a href="https://www.acm.org/publications/policies/artifact-review-and-badging-current"><img src="/artifacts_evaluated_reusable_v1_1.png" width="150" /></a>
 </p>
 
 ## Contact
