@@ -19,7 +19,7 @@ The host machine in our evaluations was running Ubuntu 18.04.5 LTS.
 | **[data/](data)**                   | Target directory for real-world traffic/topologies from SNDLib and TopologyZoo  |
 | **[results_paper/](results_paper)** | Raw result data (json) used in the evaluations shown in the paper               |
 | **[out/](src)**                     | To store json results and plots                                                 |
-| **[src/](src)**                     | Source root containing *main.py* and plot_results.py                             |
+| **[src/](src)**                     | Source root containing *main.py* and plot_results.py                            |
 | **[src/algorithm/](src/algorithm)** | WAN Routing algorithms (link weight and/or segment optimizations)               |
 | **[src/topology/](src/topology)**   | Topology provider (reads/prepares available real-world topology data)           |
 | **[src/demand/](src/demand)**       | Reader for real world traffic data and synthetic traffic generator              |
@@ -91,6 +91,11 @@ python3 plot_results.py [optional <data-dir> containing json result data]
 python3 plot_results.py "../out/"
 ```
 
+<p float="left">
+  <img src="/artifacts_available_v1_1.png" width="100" />
+  <img src="/artifacts_evaluated_functional_v1_1.png" width="100" /> 
+  <img src="/artifacts_evaluated_reusable_v1_1.png" width="100" />
+</p>
 
 ## Contact
 *[Contact Me](mailto:thomas.fenz@univie.ac.at)* or visit [University of Vienna | Communication Technologies](https://ct.cs.univie.ac.at/) for more infos.
