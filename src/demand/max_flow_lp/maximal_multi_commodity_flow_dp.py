@@ -199,8 +199,7 @@ class McfDP(GenericDemandProvider):
             try:
                 yield self.demand_sequence(sample)
             except gb.GurobiError as ex:
-                print(f"GurobiError: {ex}")
-                break
+                raise ex
             except Exception as ex:
                 continue
 
